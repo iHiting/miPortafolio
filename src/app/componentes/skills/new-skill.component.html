@@ -1,0 +1,24 @@
+
+<app-form-edit-info>
+    <form (ngSubmit)="onCreate()" novalidate #f="ngForm"> 
+        <div class="form-group">
+            <label for="nombreE"> Nombre Skill </label>
+            <input type="text" class="form-control" id="nombreE" name="nombreE" required="" [(ngModel)]="nombre">
+        </div>
+        <div class="form-group">
+            <label for="nombreE"> Porcentaje </label>
+            <input type="text" class="form-control" id="descripcionE" name="nombreE" required="" [(ngModel)]="porcentaje">
+        </div>
+        <div class="form-group">
+            <label for="img"> Imagen</label>
+            <input type="file" class="form-control" id="img" name="img" [(ngModel)]="img" required="" (change)="uploadImage($event)" accept=".jpg, .jpeg, .png">
+        </div>
+        <div *ngIf="img != null" class="imagen">
+            <img [src]="img" width="200px" alt="">
+        </div>
+
+        <button class="btn btn-primary">
+            Agregar Skill 
+        </button>
+    </form>
+</app-form-edit-info>

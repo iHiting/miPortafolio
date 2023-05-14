@@ -1,0 +1,16 @@
+
+<section class="presentacion">
+    <div class="container-fluid" styles="padding:0px height:100vh">
+        <td *ngIf="isLogged">
+            <button class="btn btn-light" routerLink="/editpresentacion/1"><i class="bi bi-pencil-fill"> EDITAR </i></button>
+        </td>    
+        <div class="row align-items-center">
+            <div class="" style="position: absolute; color: white; text-align: center">
+                <h1>{{presentacion.nombre}}  </h1>
+                <h1>{{presentacion.profesion}}  </h1>
+      
+            </div>
+            <img class="mx-auto d-block presentacion" src="{{presentacion.img}}" alt=""/>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,20 @@
+/* Mis capacidades */ 
+
+.mis-capacidades{
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding-bottom: 300px;
+    background-image: url(../../../assets/imagenes/miscapacidades.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.mis-capacidades img{
+    height: 150px;
+    margin-top: 150px;
+}

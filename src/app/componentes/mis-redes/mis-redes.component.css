@@ -1,0 +1,47 @@
+
+/* Contactame */
+.boton-red{
+    border: 0px solid black;
+    background-color: white;
+    margin: auto;
+
+}
+
+.boton-red p{
+    text-align: center;
+}
+
+.boton-red img{
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    margin-top: 50px;
+}
+
+.mis-redes{
+    height: 100vh;
+    margin-top: 0px;
+    
+    background-size: 150%;
+    background-position: 80% 20%;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+.mis-redes button{
+    background-color: transparent;
+}
+
+.mis-redes-contenido div{
+
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+
+

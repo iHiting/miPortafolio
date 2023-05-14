@@ -1,0 +1,24 @@
+
+/* Experiencia */
+
+div{
+    margin-top: 30px;
+
+}
+
+.nombre{
+    max-width: 300px;
+    width: 300px;
+    border: 3px solid red   ;
+    word-wrap: break-word;
+}
+
+.descripcion{
+    max-width: 1000px;
+    width: 1000px;
+    text-overflow: hidden;
+    border: 3px solid blue; 
+    word-wrap: break-word;
+   
+  
+}

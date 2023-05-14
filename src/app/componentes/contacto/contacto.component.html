@@ -1,0 +1,30 @@
+<section class="container-fluid">
+  <h1> CONTACTAME </h1>
+  <div class="col-lg-2">    
+    <button class="btn btn-dark" routerLink="/nuevoContacto/{{contacto.length+1}}" *ngIf="isLogged">
+        Nuevo contacto
+    </button>    
+</div>
+
+    <div class="contenido">
+      <tr class="text-center col-sm-2 col-md-2 col-lg-2 content" *ngFor="let actual of contacto">
+        <button class="boton-red" (click)="irRed(actual.link)">
+      
+                <img src="{{actual.img}}" alt="" />
+        </button>
+       
+        <div>
+          <td *ngIf="isLogged">
+              <button class="btn btn-light" routerLink="/editcontacto/{{actual.id}}">
+                  <i class="bi bi-pencil-fill"> EDITAR </i></button>
+          </td>
+          <td *ngIf="isLogged">
+              <button class="btn btn-danger" (click)="delete(actual.id)">
+                  <i class="bi bi-trash-fill"> BORRAR </i></button>
+          </td>
+        </div>
+     </tr>
+
+   </div>
+
+   

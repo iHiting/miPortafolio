@@ -1,0 +1,43 @@
+
+
+nav{
+
+    height: 150px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+}
+
+nav img{
+    height: 100px;
+}
+button{
+    padding: 0px;
+    background-color: transparent;
+    border: 0px;
+}
+.navbar-nav, a, p, button{
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-size: 30px;
+    margin-left: 35px;
+}
+
+.navbar-nav > li {
+    margin-bottom: 0;
+    line-height: 0px; 
+  }
+
+.yoprogramo{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.login{
+    margin-left: 350px;
+
+}

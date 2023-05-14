@@ -1,0 +1,15 @@
+/*Presentacion*/ 
+.presentacion img{
+    margin-left: "20";
+    padding: 0px;
+    height: 90vh;
+    margin: 0 10%;
+    object-fit: cover;
+}
+
+
+button{
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}

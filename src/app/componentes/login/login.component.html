@@ -1,0 +1,15 @@
+        
+<app-form-edit-info>
+        <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+            <div class="form-group">
+                <label for=""> Usuario </label>
+                <input type="text" name="nombreUsuario" for="nombreUsuario" class="form-control" [(ngModel)]="nombreUsuario" required>
+            </div>
+            <div class="form-group">
+                <label for=""> Contraseña:</label>
+                <input type="password" name="password" for="password" class="form-control" [(ngModel)]="password" required>
+            </div>
+            <button type="submit" class="btn btn-danger"> Iniciar sesión </button>
+            <button type="submit" class="btn btn-primary" routerLink="/nuevoUsuario"> Registrarse </button>
+        </form>
+</app-form-edit-info>
